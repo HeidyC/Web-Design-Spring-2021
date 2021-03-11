@@ -1,0 +1,22 @@
+h1 {
+    color: aquamarine;
+    background-color:cadetblue;
+    font-size: 30px;
+}
+
+ul {
+    color: rgb(21, 189, 231);
+    text-align: center;
+    
+}
+
+p {background-color: #d1b3ff;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+h1 {color: lightcoral;
+    background-color:chocolate;
+}
+/*
