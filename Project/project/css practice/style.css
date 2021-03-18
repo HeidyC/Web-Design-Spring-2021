@@ -20,3 +20,42 @@ h1 {color: lightcoral;
     background-color:chocolate;
 }
 /*
+
+/* THE FOLLOWING IS FOR THE SUPERHERO ACTIVITY */
+#superheroList {
+    text-align: right;
+    background-color: gray;
+    color: honeydew;
+
+}
+
+#firstList {
+    background-color:royalblue;
+}
+
+#secondList {
+    background-color: plum;
+}
+
+#thirdList {
+    background-color: rebeccapurple;
+}
+
+#firstList, #secondList, #thirdList {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#quarentineActivities {
+   color: rgb(139, 14, 36);
+    background-color: palevioletred;
+}
+
+.quarentine {
+    background-color: powderblue;
+    border: 5px solid black;
+}
+
+body {
+    background-image: url("ocean.jpeg");
+}

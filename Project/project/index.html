@@ -1,37 +1,47 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <!-- meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
+       
+        <!-- Link to reference CSS file -->
+        <link href="style.css" rel="stylesheet" text="text/css">
+       
         <title> Jewelry Website </title>
+
+        <!-- Library Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Start coding from here -->
-        <ul>
-            <li>
+        
+        <!-- 1. User Link Section -->
+        <ul id="user-links">
+            <!-- User Image-->
+            <li class="user-links-li">
                 <a href="index.html">
                     <img src="images/user.png" width="28" height="28">
-                    <p>Heidy</p>
+                    <p class="top-left-items">Heidy</p>
                 </a>
             </li>
-            <li>
+            <li class="user-links-li">
                 <img src="images/cash.png" width="40" height="28">
-                <p> $100 </p>
+                <p class="top-left-items">$100 </p>
             </li>
-        <li>
+        <li class="user-links-li">
                 <a href="cart.html">
                     <img src="images/cart.jpg" width="28" height="28">
-                    <p> Cart(0) </p>
+                    <p class="top-left-items">Cart(0) </p>
                 </a>
             </li>
         </ul>
-        <!-- 1. User Link Section -->
-    
 
         <!-- 2. Center Logo Section -->
         <header>
             <a href="index.html">
-            <img src="images/logo.png" width="200" height="50"> 
+            <img src="images/logo.png" height="50"> 
             </a>
         </header>
 
@@ -39,7 +49,8 @@
         <!-- 3. Navigation Bar   -->
         <nav>
             <hr width="50%" /> <!-- This adds a line -->
-            <a href="index.html"> Home </a>
+            <!-- CHANGE CURRENT BASED ON THE HTML THAT YOU ARE IN-->
+            <a class="current" href="index.html"> Home </a>
             <a href="about.html"> About </a>
             <a href="product.html"> Products </a>
             <a href="contact.html"> Contact </a>
@@ -47,6 +58,35 @@
 
         <br>
         <br>
+
+        <main>
+            <figure id="main">
+              <img src="images/watercolor-flower.png" alt = "Picture of Flowers" />
+            </figure>
+            
+            <div>
+              Hello! <br/>
+              <p> Thank you for visiting my online shopping website. </p>
+              <p> I am a Software Engineer working for DigitalNEST </p>
+              <p> Feel Free to contact me! </p>
+              <br/> <br/>
+            </div>
+          </main>
+          
+          <!-- Footer -->
+          <footer>
+              <hr>
+              <p> Intro To Web Design 2021 © Carrillo <br>
+                <strong> Disclaimer: </strong>
+                The information in this webpage is fictitious. <br>
+                It is used for academic purposes only.
+            </p>
+            <img src="images/logo.png" height="50"> 
+          </footer>
+          
+          <br>
+          <br>
+          <br>
 
         <!-- Code above from here -->
     </body>
