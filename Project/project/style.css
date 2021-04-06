@@ -58,3 +58,13 @@ nav a:hover {
     color:rgb(246, 114, 171);
     font-size: 4em;
 }
+
+.current {
+    color: black;
+}
+
+/* IMAGE */
+#main {
+    width: 40%;
+    border-radius: 10%;
+}
